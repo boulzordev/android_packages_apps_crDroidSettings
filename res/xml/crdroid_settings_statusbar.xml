@@ -36,5 +36,12 @@
             android:entries="@array/status_bar_logo_position_entries"
             android:entryValues="@array/status_bar_logo_position_values"
             android:dependency="status_bar_crdroid_logo" />
+
+       <!-- Battery Bar -->
+       <PreferenceScreen
+            android:key="battery_bar"
+            android:fragment="com.crdroid.settings.fragments.BatteryBar"
+            android:title="@string/battery_bar" />
+
      </PreferenceCategory>
 </PreferenceScreen>
